@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-color: black;
+  
+}
+.heath {
+  position: relative;
+  top: 100px;
+  color: white; 
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  min-height: 100vh;
+}
+
+em {
+  color: white;
+  font-size: 30px;
+}
+
+.arrow-down {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  margin-left: -20px;
+  height: 30px;
+  width: 30px;
+  border: solid 3px white;
+  border-radius: 7px;
+  padding: 6px;
+}
+.quote {
+  max-height: 100vh;
+  height: 279px;
+  width: 100%;
+}
+.heath-img {
+ position: absolute;
+  bottom: -470px;
+  margin-left: 50%;
+}
+
+.h-quote {
+  text-align: left;
+  font-size: 22px;
+  margin-left: 40px;
+  margin-top: 190px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+
+.bio {
+  background-color: black;
+  height: 100vh;
+}
+
+.bio-header {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heath-bio {
+  position: absolute;
+  left: 50%;
+  margin-left: -280px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 580px;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  margin-top: 350px;
+  margin-left: 150px;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .heath-img {
+        position: absolute;
+      bottom: -488px;
+    }
+}
